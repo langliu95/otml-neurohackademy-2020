@@ -2,8 +2,10 @@
 
 # setup conda environment
 conda env create -f otml_neuro.yml
-source activate otml_neuro_test
+source activate otml_neuro
 
+# install jupyter kernel
+python -m ipykernel install --user --name otml_neuro
 
 # download and install latest OT package
 echo -e "installing OT...\n"

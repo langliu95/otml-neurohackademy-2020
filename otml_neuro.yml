@@ -1,4 +1,4 @@
-name: otml_neuro_test
+name: otml_neuro
 channels:
   - defaults
 dependencies:
@@ -84,5 +84,5 @@ dependencies:
     - pot==0.7.0
     - scipy==1.5.1
     - sklearn==0.0
-prefix: /anaconda2/envs/otml_neuro_test
+prefix: /anaconda2/envs/otml_neuro
 
